@@ -25,7 +25,7 @@ public class SuperHero extends Hero {
 
 	public void fly() {
 		this.flying = true;
-		System.out.println("飛び上がった");
+		System.out.println("飛び上がった！");
 	}
 	
 	public void land() {
@@ -34,7 +34,7 @@ public class SuperHero extends Hero {
 	}
 	
 	public void run() {
-		System.out.println(this.getName() + "は撤退した");
+		System.out.println(this.getName() + "は撤退した！");
 	}
 	
 	public String kakoName() {
