@@ -12,6 +12,7 @@ public class Hero {
 	
 	public void run() {
 		System.out.println(this.name + "は、逃げ出した！");
+		System.out.println(this.name + "は、逃げ出した！");
 	}
 	
 	public final void slip() {
